@@ -1,0 +1,22 @@
+{
+  "name": "pdf_download",
+  "version": "1.0.0",
+  "description": "download pdfs using puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'No build step defined'",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "npm test"
+  },
+  "keywords": [
+    "puppeteer"
+  ],
+  "author": "Fani Akritidou",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^24.16.2"
+  }
+}
