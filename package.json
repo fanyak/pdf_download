@@ -9,7 +9,7 @@
     "build": "echo 'No build step defined'",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "test": "npm test"
+    "test": "bash test.sh"
   },
   "keywords": [
     "puppeteer"
